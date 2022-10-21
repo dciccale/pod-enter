@@ -1,0 +1,28 @@
+{
+  "name": "pod-enter",
+  "version": "1.0.0",
+  "description": "Enter a kubernetes pod by selecting it from a list of pods",
+  "main": "pod-enter.js",
+  "bin": {
+    "pod-enter": "./pod-enter.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=14.16"
+  },
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "files": [
+    "./pod-enter.js"
+  ],
+  "keywords": ["kubernetes", "pod", "shell"],
+  "author": "Denis Ciccale https://denis.mit-license.org/",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
