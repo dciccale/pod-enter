@@ -1,6 +1,6 @@
 {
   "name": "pod-enter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Enter a kubernetes pod by selecting it from a list of pods",
   "main": "pod-enter.js",
   "bin": "pod-enter.js",
@@ -9,6 +9,7 @@
     "node": ">=14.16"
   },
   "scripts": {
+    "start": "node pod-enter.js",
     "prettier": "prettier --write ."
   },
   "files": [
